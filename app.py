@@ -1,4 +1,5 @@
 import streamlit as st
+st.write("Keys found:", list(st.secrets.keys()))
 from groq import Groq
 
 # 1. Setup the Page
